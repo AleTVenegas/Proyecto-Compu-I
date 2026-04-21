@@ -1,0 +1,16 @@
+[StartTime]
+AISI1020-Análisis estático 10.MFC=2s
+[SolverState]
+AISI1020-Análisis estático 10.MFC=2
+[MainFrame]
+AISI1020-Análisis estático 10.MFC=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPMADAAAAADLBAAAAAEHEAAAAAGICAAAAA
+[ShowMin]
+AISI1020-Análisis estático 10.MFC=No
+[SolverType]
+AISI1020-Análisis estático 10.MFC=Análisis lineal
+[StudyType]
+AISI1020-Análisis estático 10.MFC=0
+[StudyName]
+AISI1020-Análisis estático 10.MFC=Análisis estático 10
+[Solver]
+AISI1020-Análisis estático 10.MFC=Sparse
