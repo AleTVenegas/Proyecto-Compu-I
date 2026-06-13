@@ -122,6 +122,8 @@ plt.rcParams.update({
     'axes.spines.top': False, 'axes.spines.right': False,
 })
 
+# ==============================================================================
+# LaTeX typeset. Si no se tiene instalado de forma nativa, comentar esta sección; la parte anterior da un formato relativamente similar
 plt.rcParams.update({
     "text.usetex": True,
     "font.family": "serif",
@@ -129,6 +131,8 @@ plt.rcParams.update({
 })
 plt.rc('text', usetex=True)
 plt.rc('text.latex', preamble=r'\usepackage{amsfonts}\usepackage{amsmath}\usepackage{amssymb}\usepackage{siunitx}')
+
+# ==============================================================================
 
 print('=' * 70)
 print('Identificacion inversa de (E, nu): red neuronal MLP vs FEMU')

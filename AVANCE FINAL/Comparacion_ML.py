@@ -146,6 +146,9 @@ plt.rcParams.update({
     'axes.spines.top': False, 'axes.spines.right': False,
 })
 
+# ==============================================================================
+# LaTeX typeset. Si no se tiene instalado de forma nativa, comentar esta sección; la parte anterior da un formato relativamente similar
+
 plt.rcParams.update({
     "text.usetex": True,
     "font.family": "serif",
@@ -154,13 +157,14 @@ plt.rcParams.update({
 plt.rc('text', usetex=True)
 plt.rc('text.latex', preamble=r'\usepackage{amsfonts}\usepackage{amsmath}\usepackage{amssymb}\usepackage{siunitx}')
 
+# ==============================================================================
+
 print('=' * 72)
 print('Comparacion de modelos ML: identificacion isotropica y ortotropica')
 print('=' * 72)
 print(f'numpy {np.__version__} | pandas {pd.__version__} | '
       f'scipy {scipy.__version__} | scikit-learn {sklearn.__version__}')
 print(f'Semilla = {SEED}\n')
-
 
 # ==============================================================================
 # [2] PROBLEMA ISOTROPICO
